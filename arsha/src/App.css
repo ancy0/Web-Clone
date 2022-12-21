@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+.arsha_header {
+  background-color: #023b6d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arsha_h_left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.arsha_logo_img {
+  height: 25px;
+  display: flex;
+  float: left;
+  padding: 0 10px 0 10px;
+}
+
+.arsha_desktop_img {
+  display: flex;
+  
+
+  height: 17px;
+  width: 18.5px;
+
+  margin-left: 17px;
+  margin-right: 16px;
+}
+
+.arsha_tablet_img {
+  filter: brightness(0.7) invert(0.15) sepia(1) hue-rotate(190deg) saturate(9) grayscale(80%);
+
+  display: flex;
+  
+  height: 17.7px;
+  width: 14.3px;
+
+  margin-right: 16px;
+
+  box-sizing: border-box;
+}
+
+.arsha_tablet_img:hover {
+  transition: 0.3s;
+  filter: brightness(1);
+
+  display: flex;
+  
+  height: 17.7px;
+  width: 14.3px;
+
+  margin-right: 16px;
+
+  box-sizing: border-box;
+}
+
+.arsha_phone_img {
+  filter: brightness(0.7) invert(0.15) sepia(1) hue-rotate(190deg) saturate(9) grayscale(80%);
+  display: flex;
+  
+  height: 17.5px;
+  
+}
+
+.arsha_phone_img:hover {
+  transition: 0.3s;
+  filter: brightness(1);
+  display: flex;
+  
+  height: 17.5px;
+  
+}
+
+.arsha_h_center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.arsha_center_text {
+  padding: 0;
+  margin: 0;
+
+  color: #fff;
+  font-weight: 700;
+
+}
+
+.arsha_h_right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.arsha_share_img {
+  filter: brightness(0.2) invert(0.65) sepia(1) hue-rotate(190deg) saturate(9) grayscale(80%);
+  height: 18px;
+
+  margin-right: 17px;
+}
+
+.arsha_share_img:hover {
+  transition: 0.3s;
+  filter: brightness(0) invert(1);
+  height: 18px;
+
+  margin-right: 17px;
+}
+
+.arsha_header_download_btn {
+  display: flex;
+  float: right;
+  
+  align-items: center;
+
+  height: 32px;
+
+  padding: 0 16px;
+
+  border: none;
+
+  background-color: #00a6eb;
+  color: #fff;
+
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.arsha_header_download_btn:hover {
+  transition: 0.3s;
+  filter: brightness(1.1);
+  display: flex;
+  float: right;
+  
+  align-items: center;
+
+  height: 32px;
+
+  padding: 0 16px;
+
+  border: none;
+
+  background-color: #00a6eb;
+  color: #fff;
+
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.arsha_download_img {
+  filter: brightness(0) invert(1);
+  margin-right: 6px;
+  height: 20px;
+}
