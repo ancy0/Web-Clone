@@ -47,11 +47,39 @@ function App() {
           </div>
         </header>
         <nav className="arsha_nav">
-          <p>nav</p>
+          <div className="arsha_nav_detail">
+            <div className="arsha_n_left">
+              <p className="arsha_n_title">arsha</p>
+            </div>
+            <div className="arsha_n_right">
+              <a className="arsha_n_start_btn" href="#start">
+                Get Started
+              </a>
+            </div>
+          </div>
         </nav>
       </div>
       <div className="arsha_contents"></div>
-      <div className="arsha_footer"></div>
+      <div className="arsha_footer">
+        <div className="arsha_f_newsletter">
+          <div className="arsha_f_newsletter_contents">
+            <h4>Join Our Newsletter</h4>
+            <p>
+              Tamen quem nulla quae legam multos aute sint culpa legam noster
+              magna
+            </p>
+          </div>
+        </div>
+        <div className="arsha_f_top">
+          <div className="arsha_f_top_contents">
+            <div className="arsha_f_top_info"></div>
+            <div className="arsha_f_top_link"></div>
+            <div className="arsha_f_top_services"></div>
+            <div className="arsha_f_top_sns"></div>
+          </div>
+        </div>
+        <div className="arsha_f_bottom"></div>
+      </div>
     </div>
   );
 }

@@ -165,3 +165,61 @@ a {
   margin-right: 6px;
   height: 20px;
 }
+
+/* nav */
+.arsha_nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.arsha_nav_detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.arsha_n_title {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.arsha_n_start_btn {
+  text-decoration-line: none;
+  
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 50px;
+  border: 2px solid #47b2e4;
+}
+
+/* footer */
+.arsha_footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.arsha_f_newsletter {
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  background-color: #f3f5fa;
+}
+
+.arsha_f_newsletter_contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arsha_f_top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
